@@ -200,3 +200,27 @@ label:hover {
 .m1 .a1:hover{
     transform: scale(1.2); 
 }
+.pole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem ;   
+    margin: 0 auto;
+    gap: 0.75rem; 
+    width: 32rem; 
+    color: var(--primary-color7);
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+button{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: var(--primary-color4);
+    margin-left: 2rem;
+    max-width: 22rem;
+}
