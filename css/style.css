@@ -70,11 +70,12 @@ section{
         display: flex;
         flex-direction: row;
         max-width: 61rem;
-        max-height: 64;
+        max-height: 64rem;
     }
     .logo{
         margin-left: 24rem;
     }
+   
 }
 
 
@@ -143,4 +144,53 @@ h1{
     color: var(--primary-color2);
     margin-left: 2rem;
     max-width: 22rem;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.send{ 
+    background-color: var(--primary-color4);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.stnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hed .logo{
+    transition: 0.5s;
+}
+.hed .logo:hover{
+    transform: scale(1.2); 
+}
+.hed .menu{
+    transition: 0.5s;
+}
+.hed .menu:hover{
+    transform: scale(1.2); 
+}
+button{
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.2); 
+}
+input{
+    transition: 0.5s;
+}
+input:hover {
+    transform: scale(1.2); 
+}
+label{
+    transition: 0.5s;
+}
+label:hover {
+    transform: scale(1.2); 
+}
+::selection {
+    background-color: rgb(183, 213, 241);
 }
