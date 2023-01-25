@@ -151,7 +151,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 .send{ 
-    background-color: var(--primary-color4);
+    background-color: var(--primary-color3);
     border: 0;
     border-radius: 5px;
     margin-top: 0.5rem;
@@ -193,4 +193,10 @@ label:hover {
 }
 ::selection {
     background-color: rgb(183, 213, 241);
+}
+.m1 .a1{
+    transition: 0.5s;
+}
+.m1 .a1:hover{
+    transform: scale(1.2); 
 }
